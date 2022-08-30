@@ -1,58 +1,83 @@
 <template>
-    <div class="navbar">
-        <div class="dropdown">
-        <button class="dropbtn" onclick="myFunction()">Moons</button>
-        <div class="dropdown-content" id="myDropdown">
-            <a href="#AT-5">AT-5</a>
-            <a href="#Z-8">Z-8</a>
-        </div>
-        </div> 
-        <div class="dropdown">
-        <button class="dropbtn2" onclick="myFunction()">Artifacts</button>
-        <div class="dropdown-content" id="myDropdown2">
-            <a href="#Artifact 1">Artifact 1</a>
-            <a href="#Artifact 2">Artifact 2</a>
-            <a href="#Artifact 3">Artifact 3</a>
-            <a href="#Humming Monolith">Humming Monolith</a>
-            <a href="#Anomalous Portal">Anomalous Portal</a>
-            <a href="#Buildings">Buildings</a>
-        </div>
-        </div> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarLeftAlignExample"
+      aria-controls="navbarLeftAlignExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
 
-        <div class="dropdown">
-        <button class="dropbtn3" onclick="myFunction()">Fauna</button>
-        <div class="dropdown-content" id="myDropdown3">
-            <a href="#Frog">Frog</a>
-            <a href="#Scaly">Scaly</a>
-         </div>
-         </div> 
-
-        <a href="#The Quiet Rapture">The Quiet Rapture</a>
-            
-
-        <div class="dropdown">
-        <button class="dropbtn4" onclick="myFunction()">The Terminal</button>
-        <div class="dropdown-content" id="myDropdown4">
-            <a href="#Context">Context</a>
-            <a href="#Terminal Interface">Terminal Interface</a>
-            <a href="#Pages of interest">Pages of interest</a>
-        </div>
-        </div>
-        
-        <div class="dropdown">
-         <button class="dropbtn5" onclick="myFunction()">Submarines</button>
-         <div class="dropdown-content" id="myDropdown5">
-            <a href="#The Iron Lung">The Iron Lung</a>
-            <a href="#SM-8">SM-8</a>
-        </div>
-        </div>
-        
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+     <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="#">Action</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another action</a>
+            </li>
+          
+          </ul>
+        </li>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="#">Action</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another action</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <!-- Left links -->
     </div>
+    <!-- Collapsible wrapper -->
+  </div>
+</nav>
+
 <div class="content">
     <h2>Moons</h2>
     <h3 id="AT-5">AT-5</h3>
     <p>Discovered Post-Quiet Rapture, AT-5 is an otherwise barren moon that holds an anomaly in its trench known as a Blood Ocean (Which is exactly what it sounds like). This is not the first blood ocean to be discovered, though this in particular holds useful anomalous locations that require further investigation. AT-5 seems to support life as flora and two aggressive fauna (Scaly and Frog) are spotted during your playthrough, possibly even intelligent life from the buildings found in the south-west, south-east, and north-east locations of interest.</p>
-    <img src="../assets/img/At-5's surface" alt="At-5's surface">   
+    <img src="../assets/img/At5.jpg" alt="At-5's surface">   
     <p id="imgdesc">Surface of AT-5's blood ocean, as seen on the title screen</p>
     <h4>Trivia</h4>
     <hr>
@@ -67,7 +92,7 @@
     <h2 id="Artifacts">Artifacts</h2>
     <h3 id="Artifact 1">Artifact 1</h3>
     <p>Artifact 1, not to be confused with THE artifacts, referred to as bIGoBILISK (Big Oblisk) in the files, are a set of 12 large pillars with 6 large ones and 6 smaller ones with rocks all around them that bare a resemble to the Humming Monolith at coordinates: X_322, Y_186, and A_033. They are one of the ten locations of interest.</p>
-    <img src="../assets/img/Obelisk" alt="Obelisk">
+    <img src="../assets/img/Obelisk.jpg" alt="Obelisk">
     <p id="imgdesc">Artifact 1 shown in a datamined state of the game</p>
     <h4>Origins</h4>
     <hr>
@@ -75,7 +100,7 @@
     <br>
     <h3 id="Artifact 2">Artifact 2</h3>
     <p>Artifact 2, not to be confused with THE artifacts, referred to as whalebone, spikes, and physicalrock in the files, are a set of 6 bones, 7 stalagmites in the middle, and a large rock off to the left away from the bones and stalagmites at coordinates: X_378, Y_263, and A_050.</p>
-    <img src="../assets/img/Bonez" alt="Bonez">
+    <img src="../assets/img/Bonez.jpg" alt="Bonez">
     <p id="imgdesc">Artifact 2 shown in a datamined state of the game</p>
     <br>
     <h3 id="Artifact 3">Artifact 3</h3>
@@ -83,7 +108,7 @@
     <h4>Origins</h4>
     <hr>
     <p>Unknown; presumed to be artificial due to the shape, noise that it emits, and similarity to the pillars on the various buildings seen in the game; and it being named "artifact." Its purpose is unknown; presumed to function similar to a pipe. Some have suggested they are parasites feeding off of the blood, while some say that this is actually what transports the blood, the purpose is widely unknown.</p>
-    <img src="../assets/img/Pipes" alt="Pipes?">
+    <img src="../assets/img/Pipes.jpg" alt="Pipes?">
     <p id="imgdesc">Artifacts shown in a datamined state of the game</p>
     <br>
     <audio controls src="https://static.wikia.nocookie.net/iron-lung-game/images/a/a1/The_muffled_noise_that_the_artifact_emits.ogg/revision/latest?cb=20220424042716" type="audio/ogg"></audio>
@@ -94,7 +119,7 @@
     <h4>Origins</h4>
     <hr>
     <p>Unknown; definitely anomalous as no geological formation has made a man-made sounding humming noise that fades in and out constantly to no end. Highly likely constructed by the race that constructed the artefacts and buildings. Similar to its origins, its purpose is unknown.</p>
-    <img src="../assets/img/Hummus" alt="Hummus?">
+    <img src="../assets/img/Hummus.jpg" alt="Hummus?">
     <p id="imgdesc">Humming Monolith shown in a datamined state of the game</p>
     <br>
     <audio controls src="https://static.wikia.nocookie.net/iron-lung-game/images/1/1b/The_humming_noise_that_the_Humming_Monolith_emits.ogg/revision/latest?cb=20220424034243" type="audio/ogg"></audio>
@@ -105,14 +130,14 @@
     <h4>Origins</h4>
     <hr>
     <p>Unknown; presumed to be a wormhole or possibly a structure or device by the race that constructed the artefacts and buildings. Its name may be a reference to the fact the universe is no longer habitable as the universe has also been referred to as "the void."</p>
-    <img src="../assets/img/Void" alt="Void">
+    <img src="../assets/img/Void.jpg" alt="Void">
     <p id="imgdesc">The Void shown in a datamined state of the game</p>
     <br>
     <h3 id="Buildings">Buildings</h3>
     <h4 id="subtitle">Appearance</h4>
     <hr>
     <p>There are multiple buildings found in the game, two of these buildings are points of interest and artifacts (X:865, Y:255. X:675, Y:825) and one of these is found in a tunnel going into the anomalous portal. These walls are brick-like and have pipes and pillars similar to artifact three, in the last point of interest some of these walls have windows. Not much else is known but they are a physical entity and bumping into them will destroy the iron lung</p>
-    <img src="../assets/img/building" alt="building">
+    <img src="../assets/img/building.jpg" alt="building">
     <p id="imgdesc">Thec Walls</p>
     <h4 id="subtitle">History</h4>
     <hr>
@@ -127,7 +152,7 @@
     <h4 id="subtitle">Appearance</h4>
     <hr>
     <p>The frog features an orange long slim body with a yellow-lipped large gaping jaw with rows of sharp teeth, and eyes with white sclera that lacks an iris; presumed vision to be poor or non-functioning. Due to its sharp teeth, large jaw, and it or one of it killing the player, it is assumed that the frog is carnivorous or omnivorous. Assuming the player's height is 5 ft 6 in, the average height of a male, the head of the frog is 5 ft 6 in. The game model is the monster's face and the rest of the body is a long, low-quality stretched wide body.</p>
-    <img src="../assets/img/Phish" alt="Phish">
+    <img src="../assets/img/Phish.jpg" alt="Phish">
     <p id="imgdesc">Texture of the frog in the files</p>
     <h4 id="subtitle">Behaviour</h4>
     <hr>
@@ -139,7 +164,7 @@
     <p>Looking at the skeletons at the two listed coordinates above, it is assumed that it has an eel body by looking at the ribcage with a whale-like head looking at the skull. It is assumed to be herbivorous due to the skeleton's dull teeth. Looking at the photographed image of the live Whale, the Whale is reptilian in appearance with scales, non-visible sclera, and a lack of eyelashes and eyelids. Its iris is similar to ours, meaning its vision is most likely a bit worse than ours, but about the same. Considering the height of you and the ceiling of the Iron Lung and the length of the interior, it is assumed the Iron Lung is small. With the Whale being close to the Iron Lung and the Iron Lung being small, it is assumed the Whale is big as if not bigger than the Iron Lung. If the Whale is truly transported by the void, it is assumed it is a species adapted to lower depths considering how it isn't crushed due to the pressure.</p>
     <br>
     <p>While the creature may resemble a whale, the closest thing we can get as a real animal from its environment of living and form of pupils are frogs, octopuses, snakes, and other prey-like animals, which is suggested by how the pupil resembles that of a horizontally-split one. This type of pupil allows the animal to spot the vertical motion of a predator, allowing for it to escape by taking evasive actions. One thing that also supports this theory is how those exact pupils help the animal do better night (or day) foraging, which is quite important for animals that live and thrive in such an ecosystem</p>
-    <img src="../assets/img/Ello mate" alt="Ello mate!">
+    <img src="../assets/img/Ellomate.jpg" alt="Ello mate!">
     <p id="imgdesc">The Whale staring into the Iron Lung's camera just before it attacks.</p>
     <h4>Behaviour</h4>
     <hr>
@@ -162,7 +187,7 @@
     <p>The Terminal is a feature that was added to the game in the 2.0 beta, and provides background information to the universe that the game takes place in.</p>
     <p>The Terminal itself consists of a rusty monitor and a keyboard that has been painted green and can be found opposite the photograph display monitor.</p>
     <br>
-    <img src="../assets/img/monitor" alt="monitor">
+    <img src="../assets/img/monitor.jpg" alt="monitor">
     <p id="imgdesc">Image of The Iron Lung's Terminal</p>
     <br>
     <h3 id="Terminal Interface">Terminal Interface</h3>
@@ -171,7 +196,7 @@
     <p>It is in this interface that the player is allowed to type relevant words into the console to obtain information.</p>
     <p>Before the player searches any queries, the terminal states that the last time the database was updated was "today [5/378]" indicating that [5/389] is the date that the player is submerged into the blood ocean.</p>
     <br>
-    <img src="../assets/img/interface" alt="interface">
+    <img src="../assets/img/interface.jpg" alt="interface">
     <p id="imgdesc">Terminal interface</p>
     <br>
     <h3 id="Pages of interest">Pages of interest</h3>
@@ -271,7 +296,7 @@
         <p>Ultimately, the fate of the Iron Lung isn't pretty as the damage taken from the scaly creature and the dense liquids of the blood ocean clattering against the weak hull of the iron lung is immense. A wound left suspected to be at the back of the Iron Lung allows blood to flow up to knee level due to the sudden defensive assault. The external damage allowed the frog creature to pry its way in, kill the player, and destroy all the components within leaving them scattered all across the blood ocean floor as described in the epilogue's monologue.</p>
         <h3 id="SM-8">SM-8</h3>
         <p>The SM-8 was a submarine used to explore the blood ocean on AT-5. Unlike the other submarines, this was not a burner submarine and was actually used to explore and survey the blood ocean.</p>
-        <img src="../assets/img/SM-8" alt="sm-8">
+        <img src="../assets/img/SM-8.jpg" alt="sm-8">
         <p id="imgdesc">Remains of the SM-8, taken by the iron lung</p>
         <br>
         <h4>History</h4>
@@ -285,51 +310,83 @@
 </template>
 
 <script>
- function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    document.getElementById("myDropdown2").classList.toggle("show");
-    document.getElementById("myDropdown3").classList.toggle("show");
-    document.getElementById("myDropdown4").classList.toggle("show")
-    document.getElementById("myDropdown5").classList.toggle("show")
 
-  }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
-      var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-    }
-
-    if (!e.target.matches('.dropbtn2')) { 
-      var myDropdown2 = document.getElementById("myDropdown2");
-      if (myDropdown2.classList.contains('show')) {
-        myDropdown2.classList.remove('show');
-      }
-    }
-
-    if (!e.target.matches('.dropbtn3')) { 
-      var myDropdown3 = document.getElementById("myDropdown3");
-      if (myDropdown3.classList.contains('show')) {
-        myDropdown3.classList.remove('show');
-      }
-    }
-
-    if (!e.target.matches('.dropbtn4')) { 
-      var myDropdown4 = document.getElementById("myDropdown4");
-      if (myDropdown4.classList.contains('show')) {
-        myDropdown4.classList.remove('show');
-      }
-    }
-
-    if (!e.target.matches('.dropbtn5')) { 
-      var myDropdown5 = document.getElementById("myDropdown5");
-      if (myDropdown5.classList.contains('show')) {
-        myDropdown5.classList.remove('show');
-      }
-    }
-  }
 </script>
 
+<style>
+body {
+  background-color: hsla(0, 100%, 30%, 0.1);
+  overflow: auto;
+   background-image: url(https://i.ytimg.com/vi/lzwd5IdLAWw/maxresdefault.jpg);
+}
+
+
+
+.content {
+  text-align: left;
+  font-size: 17px;
+  color: rgb(255, 0, 0);
+}
+
+.released {
+font-style: italic;
+margin-top: -10px;
+text-align: center;
+color: red;
+}
+
+hr {
+  border-color: rgb(53, 94, 12);
+  margin-top: -20px;
+}
+
+
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  font-style: initial
+ 
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+
+
+img {
+  display: block;
+  height: 425px;
+  width: 550px;
+  
+}
+
+#imgdesc {
+  color: rgb(225, 38, 38);
+  font-style: italic;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+}
+#note {
+  font-weight: bolder;
+  font-style: italic;
+}
+</style>
