@@ -1,0 +1,186 @@
+body {
+  background-color: hsla(0, 100%, 30%, 0.1);
+  overflow: auto;
+   background-image: url(https://i.ytimg.com/vi/lzwd5IdLAWw/maxresdefault.jpg);
+}
+
+
+
+.content {
+  text-align: left;
+  font-size: 17px;
+  color: rgb(255, 0, 0);
+}
+
+.released {
+font-style: italic;
+margin-top: -10px;
+text-align: center;
+color: red;
+}
+
+hr {
+  border-color: rgb(53, 94, 12);
+  margin-top: -20px;
+}
+
+
+h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  font-style: initial
+ 
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(77, 59, 59);
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  z-index: 9000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: red;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown .dropbtn2 {
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: red;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn3 {
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: red;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn4 {
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: red;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn5 {
+  cursor: pointer;
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: red;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar :hover, .dropdown:hover .dropbtn, .dropbtn:focus  .dropbtn2, .dropbtn2:focus .dropbtn3, .dropbtn3:focus .dropbtn4, .dropbtn4:focus .dropbtn5, .dropbtn5:focus   {
+  background-color: rgb(0, 0, 0);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #353837;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(17, 17, 17, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(25, 23, 23);
+}
+
+.show {
+  display: block;
+}
+
+img {
+  display: block;
+  height: 425px;
+  width: 550px;
+  
+}
+
+#imgdesc {
+  color: rgb(225, 38, 38);
+  font-style: italic;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+}
+#note {
+  font-weight: bolder;
+  font-style: italic;
+}
